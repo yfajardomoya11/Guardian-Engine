@@ -1,0 +1,13 @@
+# Bases de datos con info real
+database/*.db
+*.log
+
+# Archivos de Python (basura del sistema)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.vscode/
+
+# Variables de entorno (donde irán tus tokens de Telegram en el futuro)
+.env
