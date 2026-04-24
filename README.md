@@ -5,7 +5,8 @@
 [![Python Version](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Identity](https://img.shields.io/badge/Branding-The--Network--Guardian-red)](https://github.com/tu-usuario)
-
+ 
+![Logo de Guardian Engine](https://github.com/yfajardomoya11/Guardian-Engine/blob/main/assets/SIEM-1.png)
 ## 👤 Autor
 **Yananth Fajardo Moya** *Técnico Infraestructura de Redes y Desarrollador de Herramientas de Ciberseguridad**
 
