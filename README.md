@@ -24,9 +24,8 @@
 Este proyecto es la pieza central del ecosistema de herramientas de **"The Network-Guardian"**, enfocado en la transición hacia la ciberseguridad defensiva. 
 
 ## 📸 Evidencia )de Funcionamiento (PoC)
-![Guardian-Engine en Acción](assets/PRUEBASIEM1) 
 <p align="center">
-  <img src="assets/demo.png" alt="Guardian-Engine Demo" width="600">
+  <img src="assets/PRUEBASIEM1.png" alt="Guardian-Engine Demo" width="800">
   <br>
   <i>Captura del motor detectando y registrando alertas en tiempo real.</i>
 </p>
