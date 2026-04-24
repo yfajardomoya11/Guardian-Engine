@@ -1,3 +1,4 @@
+![Tests Status](https://github.com/yfajardomoya11/guardian-engine/actions/workflows/python-tests.yml/badge.svg)
 # 🛡️ Guardian-Engine v1.0
 **Real-Time Security Orchestration & Network Monitoring Engine**
 
