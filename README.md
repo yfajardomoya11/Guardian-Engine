@@ -1,3 +1,17 @@
+# 🟣 Guardian-Engine: Ultra Ego SIEM Core
+![Ultra Ego](https://img.shields.io/badge/Mode-Ultra_Ego-blueviolet?style=for-the-badge&logo=dragonball)
+![Python](https://img.shields.io/badge/Power-Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Security](https://img.shields.io/badge/Status-Active_Defense-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Instinct-Ultra_Ego-blueviolet)
+![Type](https://img.shields.io/badge/SIEM-Event--Driven-red)
+
+> **"Un verdadero guerrero no busca evitar el golpe, lo utiliza para aplastar a su enemigo."**
+
+## 🛡️ Descripción del Proyecto
+**Guardian-Engine** es un motor de procesamiento de eventos de seguridad (SIEM) de alto rendimiento desarrollado en **Python**. Diseñado bajo una arquitectura **Event-Driven**, este sistema actúa como el núcleo central de defensa, absorbiendo y monitoreando logs en tiempo real para detectar, analizar y registrar amenazas con la ferocidad del **Ultra Ego**.
+
+Mientras otros sistemas se saturan, Guardian-Engine utiliza cada intento de intrusión para fortalecer el registro de seguridad, transformando el caos de la red en control total. 
+
 ![Tests Status](https://github.com/yfajardomoya11/guardian-engine/actions/workflows/python-tests.yml/badge.svg)
 # 🛡️ Guardian-Engine v1.0
 **Real-Time Security Orchestration & Network Monitoring Engine**
@@ -23,7 +37,8 @@
 ## 📖 Descripción
 **Guardian-Engine** es un motor de procesamiento de eventos de seguridad desarrollado en Python. Diseñado bajo una arquitectura **Event-Driven**, este sistema actúa como el núcleo central de defensa, monitoreando logs en tiempo real para detectar, analizar y registrar amenazas en la infraestructura de red.
 
-Este proyecto es la pieza central del ecosistema de herramientas de **"The Network-Guardian"**, enfocado en la transición hacia la ciberseguridad defensiva. 
+Este proyecto es la pieza central del ecosistema de herramientas creadas por mí, en mi transicion hacia la ciberseguridad
+
 
 ## 📸 Evidencia )de Funcionamiento (PoC)
 <p align="center">
@@ -56,3 +71,5 @@ GUARDIAN-ENGINE/
 └── alerts.log           # Canal de entrada de eventos monitoreados  
 
 
+> ### 🟣 **LA DOCTRINA DEL ULTRA EGO EN LA RED**
+> "No esperen un simple registro de eventos; esto es la **Doctrina del Ultra Ego** aplicada a la red. Mi motor de eventos no esquiva la tormenta, se sitúa en el centro de ella para absorber su fuerza. Cada intento de vulneración es desintegrado y reconstruido como un pilar de conocimiento. ¡En mi arquitectura, el ataque enemigo es la oración que invoca mi evolución!" ⚡🟣
