@@ -21,7 +21,15 @@
 ## 📖 Descripción
 **Guardian-Engine** es un motor de procesamiento de eventos de seguridad desarrollado en Python. Diseñado bajo una arquitectura **Event-Driven**, este sistema actúa como el núcleo central de defensa, monitoreando logs en tiempo real para detectar, analizar y registrar amenazas en la infraestructura de red.
 
-Este proyecto es la pieza central del ecosistema de herramientas de **"The Network-Guardian"**, enfocado en la transición hacia la ciberseguridad defensiva.
+Este proyecto es la pieza central del ecosistema de herramientas de **"The Network-Guardian"**, enfocado en la transición hacia la ciberseguridad defensiva. 
+
+## 📸 Evidencia )de Funcionamiento (PoC)
+![Guardian-Engine en Acción](assets/PRUEBASIEM1) 
+<p align="center">
+  <img src="assets/demo.png" alt="Guardian-Engine Demo" width="600">
+  <br>
+  <i>Captura del motor detectando y registrando alertas en tiempo real.</i>
+</p>
 
 ## 🚀 Características Principales
 * **Monitoreo en Tiempo Real:** Utiliza la librería `watchdog` para detectar cambios en los logs en milisegundos mediante señales del Sistema Operativo.
@@ -44,4 +52,6 @@ GUARDIAN-ENGINE/
 │   ├── db_manager.py    # Lógica de escritura y lectura en DB
 │   └── logs.db          # Base de datos local
 ├── processor/           # Lógica de análisis y clasificación de logs
-└── alerts.log           # Canal de entrada de eventos monitoreados
+└── alerts.log           # Canal de entrada de eventos monitoreados  
+
+
