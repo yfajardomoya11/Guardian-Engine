@@ -1,78 +1,127 @@
-# 🟣 Guardian-Engine: Ultra Ego SIEM Core
-![Ultra Ego](https://img.shields.io/badge/Mode-Ultra_Ego-blueviolet?style=for-the-badge&logo=dragonball)
+# 🛡️ Guardian-Engine: Sentinel Shield
+![Mode](https://img.shields.io/badge/Mode-Sentinel_Shield-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Power-Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Security](https://img.shields.io/badge/Status-Active_Defense-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/Instinct-Ultra_Ego-blueviolet)
-![Type](https://img.shields.io/badge/SIEM-Event--Driven-red)
+![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-purple?style=for-the-badge)
+![SIEM](https://img.shields.io/badge/SIEM-Core_System-darkred?style=for-the-badge)
 
-> **"Un verdadero guerrero no busca evitar el golpe, lo utiliza para aplastar a su enemigo."**
+> **"A true defense system doesn't avoid impact — it absorbs, analyzes, and neutralizes threats in real time."**
 
-## 🛡️ Descripción del Proyecto
-**Guardian-Engine** es un motor de procesamiento de eventos de seguridad (SIEM) de alto rendimiento desarrollado en **Python**. Diseñado bajo una arquitectura **Event-Driven**, este sistema actúa como el núcleo central de defensa, absorbiendo y monitoreando logs en tiempo real para detectar, analizar y registrar amenazas con la ferocidad del **Ultra Ego**.
+---
 
-Mientras otros sistemas se saturan, Guardian-Engine utiliza cada intento de intrusión para fortalecer el registro de seguridad, transformando el caos de la red en control total. 
+## 🛡️ Project Overview
+
+**Guardian-Engine: Sentinel Shield** is a high-performance **Security Information and Event Management (SIEM)** engine developed in **Python**, designed with an **Event-Driven architecture**.
+
+It acts as a **centralized cyber defense core**, capable of:
+
+- Monitoring logs in real time  
+- Detecting anomalous behavior  
+- Classifying security events  
+- Persisting forensic data for analysis  
+
+Unlike traditional systems, Sentinel Shield is built to **operate under pressure**, transforming high volumes of security events into structured intelligence.
+
+---
 
 ![Tests Status](https://github.com/yfajardomoya11/guardian-engine/actions/workflows/python-tests.yml/badge.svg)
-# 🛡️ Guardian-Engine v1.0
-**Real-Time Security Orchestration & Network Monitoring Engine**
-
-[![Python Version](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Identity](https://img.shields.io/badge/Branding-The--Network--Guardian-red)](https://github.com/tu-usuario)
- 
-![Logo de Guardian Engine](https://github.com/yfajardomoya11/Guardian-Engine/blob/main/assets/SIEM-1.png)
-## 👤 Autor
-**Yananth Fajardo Moya** *Técnico Infraestructura de Redes y Desarrollador de Herramientas de Ciberseguridad**
 
 ---
 
-## ⚠️ PRO PROFESSIONAL DISCLAIMER / DESCARGO DE RESPONSABILIDAD
-> **Este proyecto fue desarrollado con fines exclusivamente educativos y de aprendizaje.** > 
-> Guardian-Engine es una prueba de concepto (PoC) diseñada para demostrar habilidades en programación con Python, automatización de eventos y manejo de bases de datos. No debe ser utilizado como única medida de defensa en entornos de producción críticos sin previa auditoría y endurecimiento (hardening) profesional. 
-> 
-> El uso de este software para el monitoreo de redes debe realizarse siempre bajo el marco de la legalidad y con el consentimiento explícito de los propietarios de la infraestructura. El autor no se hace responsable por el mal uso de esta herramienta.
+## 🖼️ Visual Concept
+
+![Guardian Engine](https://github.com/yfajardomoya11/Guardian-Engine/blob/main/assets/guardianengine.png)
+
+Sentinel Shield represents a **defensive cyber layer**, acting as a digital barrier between infrastructure and malicious activity.
 
 ---
 
-## 📖 Descripción
-**Guardian-Engine** es un motor de procesamiento de eventos de seguridad desarrollado en Python. Diseñado bajo una arquitectura **Event-Driven**, este sistema actúa como el núcleo central de defensa, monitoreando logs en tiempo real para detectar, analizar y registrar amenazas en la infraestructura de red.
+## 👨‍💻 Author
 
-Este proyecto es la pieza central del ecosistema de herramientas creadas por mí, en mi transicion hacia la ciberseguridad
+**Yananth Fajardo Moya**  
+Network Infrastructure Technician & Cybersecurity Tool Developer  
+Costa Rica 🇨🇷  
 
+---
 
-## 📸 Evidencia )de Funcionamiento (PoC)
+## ⚠️ Professional Disclaimer
+
+> This project was developed for **educational and demonstration purposes only**.
+
+Guardian-Engine is a **Proof of Concept (PoC)** designed to showcase skills in:
+
+- Python development  
+- Event-driven architectures  
+- Security monitoring systems  
+- Data persistence and analysis  
+
+⚠️ It should not be used as a standalone defense solution in production environments without proper auditing, validation, and security hardening.
+
+The author is not responsible for misuse of this tool.
+
+---
+
+## 📖 Description
+
+**Guardian-Engine** is a security event processing engine that monitors system logs in real time, detects anomalies, and stores structured alerts for further analysis.
+
+This project represents a **core component in a personal cybersecurity ecosystem**, demonstrating practical SIEM capabilities aligned with real-world SOC environments.
+
+---
+
+## 📸 Proof of Concept
+
 <p align="center">
-  <img src="assets/PRUEBASIEM1.png" alt="Guardian-Engine Demo" width="800">
+  <img src="assets/guardianengine.png" width="100%">
+</p>
   <br>
-  <i>Captura del motor detectando y registrando alertas en tiempo real.</i>
+  <i>Real-time detection and classification of security events.</i>
 </p>
 
-## 🚀 Características Principales
-* **Monitoreo en Tiempo Real:** Utiliza la librería `watchdog` para detectar cambios en los logs en milisegundos mediante señales del Sistema Operativo.
-* **Análisis de Hilos de Log:** Algoritmo capaz de escanear y procesar múltiples líneas de forma secuencial, clasificando eventos en `INFO`, `WARNING` y `CRITICAL`.
-* **Persistencia Forense:** Integración con **SQLite** para el almacenamiento estructurado de alertas, garantizando que el historial de eventos sea persistente y auditable.
-* **Seguridad por Diseño:** Implementación de variables de entorno (`.env`) para proteger rutas de archivos y configuraciones sensibles del sistema.
+---
 
-## 🛠️ Stack Tecnológico
-* **Lenguaje:** Python 3.14
-* **Base de Datos:** SQLite3
-* **Librerías Clave:** `watchdog`, `python-dotenv`, `pandas`
-* **Arquitectura:** Orientada a Eventos (Event-Driven)
+## 🚀 Key Features
 
-## 📂 Estructura del Proyecto
-```text
-GUARDIAN-ENGINE/
-├── main.py              # Orquestador principal del motor
-├── .env                 # Configuración de entorno (Excluido de Git)
-├── database/            # Capa de datos y gestión de SQLite
-│   ├── db_manager.py    # Lógica de escritura y lectura en DB
-│   └── logs.db          # Base de datos local
-├── processor/           # Lógica de análisis y clasificación de logs
-└── alerts.log           # Canal de entrada de eventos monitoreados  
+### 🔍 Real-Time Monitoring
+- Uses `watchdog` to detect file changes instantly via OS signals
 
+### 🧠 Event Analysis Engine
+- Processes log streams line-by-line  
+- Classifies events into:
+  - `INFO`
+  - `WARNING`
+  - `CRITICAL`
 
-> ### 🟣 **LA DOCTRINA DEL ULTRA EGO EN LA RED**
-> "No esperen un simple registro de eventos; esto es la **Doctrina del Ultra Ego** aplicada a la red. Mi motor de eventos no esquiva la tormenta, se sitúa en el centro de ella para absorber su fuerza. Cada intento de vulneración es desintegrado y reconstruido como un pilar de conocimiento. ¡En mi arquitectura, el ataque enemigo es la oración que invoca mi evolución!" ⚡🟣
+### 🗄️ Forensic Persistence
+- SQLite integration for structured storage  
+- Enables historical analysis and auditing  
+
+### 🔐 Secure Configuration
+- Environment variables (`.env`) for sensitive data protection  
 
 ---
-> **Disclaimer:** Visual identity inspired by the concept of resilience; character art is a fan-tribute to its respective creators.
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.x  
+- **Database:** SQLite3  
+- **Libraries:**  
+  - `watchdog`  
+  - `python-dotenv`  
+  - `pandas`  
+
+- **Architecture:** Event-Driven System  
+
+---
+
+## 📂 Project Structure
+
+```text
+GUARDIAN-ENGINE/
+├── main.py              # Core engine orchestrator
+├── .env                 # Environment configuration (excluded)
+├── database/
+│   ├── db_manager.py    # Database logic
+│   └── logs.db          # Local database
+├── processor/           # Log processing engine
+└── alerts.log           # Monitored event stream
