@@ -72,7 +72,7 @@ This project represents a **core component in a personal cybersecurity ecosystem
 ## 📸 Proof of Concept
 
 <p align="center">
-  <img src="assets/guardianengine.png" width="100%">
+  <img src="assets/PRUEBASIEM1.png" width="100%">
 </p>
   <br>
   <i>Real-time detection and classification of security events.</i>
