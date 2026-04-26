@@ -125,3 +125,12 @@ GUARDIAN-ENGINE/
 │   └── logs.db          # Local database
 ├── processor/           # Log processing engine
 └── alerts.log           # Monitored event stream
+
+
+## 🔗 Part of Cybersecurity Ecosystem
+
+This project is part of a modular cybersecurity platform:
+
+- Network Security Tool  
+- Sentinel Watch  
+- Guardian Engine  
